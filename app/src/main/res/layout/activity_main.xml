@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3">
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryRight1"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            app:batteryChargingSpeed="1"
+            app:batteryPower="66" />
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryRight2"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            app:batteryPower="0" />
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryRight3"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            app:batteryPower="20" />
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryRight4"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            app:batteryPower="40" />
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryRight5"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            app:batteryPower="100" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4">
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryLeft1"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            app:batteryChargingSpeed="3"
+            app:batteryOrientation="horizontal_left"
+            app:batteryPower="66" />
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryLeft2"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            app:batteryOrientation="horizontal_left"
+            app:batteryPower="0" />
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryLeft3"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            app:batteryOrientation="horizontal_left"
+            app:batteryPower="20" />
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryLeft4"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            app:batteryOrientation="horizontal_left"
+            app:batteryPower="40" />
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryLeft5"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            app:batteryOrientation="horizontal_left"
+            app:batteryPower="100" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryTop1"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            app:batteryChargingSpeed="6"
+            app:batteryOrientation="vertical_top"
+            app:batteryPower="66" />
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryTop2"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            app:batteryOrientation="vertical_top"
+            app:batteryPower="0" />
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryTop3"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            app:batteryOrientation="vertical_top"
+            app:batteryPower="20" />
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryTop4"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            app:batteryOrientation="vertical_top"
+            app:batteryPower="40" />
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryTop5"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            app:batteryOrientation="vertical_top"
+            app:batteryPower="100" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6">
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryBottom1"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            app:batteryChargingSpeed="9"
+            app:batteryOrientation="vertical_bottom"
+            app:batteryPower="66" />
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryBottom2"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            app:batteryOrientation="vertical_bottom"
+            app:batteryPower="0" />
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryBottom3"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            app:batteryOrientation="vertical_bottom"
+            app:batteryPower="20" />
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryBottom4"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            app:batteryOrientation="vertical_bottom"
+            app:batteryPower="40" />
+
+        <com.fphoenixcorneae.widget.battery.Battery
+            android:id="@+id/batteryBottom5"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            app:batteryOrientation="vertical_bottom"
+            app:batteryPower="100" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
